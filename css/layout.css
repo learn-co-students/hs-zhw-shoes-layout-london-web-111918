@@ -24,4 +24,18 @@
 
 /* Posititoning Classes */
 
+.top-row {
+  column-width: 100px;
+  column-count: 2;
+  border: 10px;
+}
 
+.bottom-row {
+  column-count: 3;
+}
+
+#detail-column  {
+  text-align:center;
+  column-count: 3;
+  border: 10px;
+}
