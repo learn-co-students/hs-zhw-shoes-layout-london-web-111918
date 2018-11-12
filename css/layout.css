@@ -24,4 +24,16 @@
 
 /* Posititoning Classes */
 
+.featured-archive, #deals, #details .wrapper {
+  columns: 3;
+}
 
+
+#featured {
+  display: inline;
+  float: left;
+}
+
+#archive {
+  display: inline-block;
+}
