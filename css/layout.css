@@ -1,7 +1,7 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
+  margin: 0;
   padding:0;
   border:0;
   box-sizing: border-box;
@@ -24,4 +24,22 @@
 
 /* Posititoning Classes */
 
+#featured {
+  display: inline;
+  float: left;
+  width: 66%;
+}
 
+#archive {
+  display: inline;
+  float: right;
+  width: 32%;
+}
+
+section {
+  margin-bottom: 1em;
+}
+
+#deals, #details .wrapper {
+  columns: 3;
+}
